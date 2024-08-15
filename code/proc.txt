@@ -1,0 +1,5 @@
+#2
+pip install -r requirements.txt
+
+#3
+python detect.py --source 0 --weights ../models/best.pt --conf 0.2
